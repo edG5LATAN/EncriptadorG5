@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+
+}
+/*la section 1*/
+.contenedor{
+    width: 1400px;
+    height: 650px;
+    background-color: orange;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+}
+.principal{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 90%;
+    height: 90%;
+    padding: 5px;
+    background-color: lightgreen;
+}
+.section1{
+    width: 60%;
+    margin: 15px;
+    box-sizing: border-box;
+}
+.logo{
+    margin-bottom: 10px;
+}
+.section1 textarea{
+    width: 680px;
+    height: 400px;
+    resize: none;
+    border-radius: 10px;
+    border: 1px solid rgb(93, 96, 99);
+    background-color: lightgray;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 25px;
+
+}
+.aviso{
+    font-size: small;
+    padding-left: 20px;
+    font-style: italic;
+}
+.botones{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.btn1{
+    width: 150px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+
+/*la section 2*/
+.section2{
+   width: 40%;
+   margin: 15px;
+   background-color: lightcyan;
+   border-radius: 10px;
+}
+.contenedor2{
+    display: block;
+}
+.divSection1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   box-sizing: border-box;
+   margin: 10px 5px;
+   height: 350px;
+}
+
+.divSection3{
+    display: grid;
+    text-align: center;
+}
+.divSection3 h3{
+    font-weight: bold;
+
+}
+.divSection3 p{
+    padding-top: 5px;
+}
+.divSection2{
+    display: flex;
+}
+/* aca ba el tex area*/
+.divSection2{
+    box-sizing: border-box;
+    display: none;
+   align-items: center;
+   justify-content: space-evenly;
+   box-sizing: border-box;
+   margin: 10px 5px;
+}
+.textarea2{
+    resize: none;
+    padding: 15px 10px;
+    width: 400px;
+    height: 480px;
+    border: 1px solid lightslategray;
+    border-radius: 10px;
+    font-size: 25px;
+}
