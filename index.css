@@ -3,45 +3,42 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: lightblue;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    justify-items: center;
 
-}
 /*la section 1*/
 .contenedor{
-    width: 1400px;
-    height: 650px;
-    background-color: orange;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    justify-items: center;
+    margin:5px ;
+    height: 615px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
 }
 .principal{
+    width: 99%;
+    height: 90%;
+    padding: 9px;
     display: flex;
-    justify-content: space-evenly;
     border: 1px solid black;
     border-radius: 8px;
-    width: 90%;
-    height: 90%;
-    padding: 5px;
-    background-color: lightgreen;
+    background-color: rgb(59, 150, 150);
+    box-shadow: 5px 10px 5px black
 }
 .section1{
-    width: 60%;
-    margin: 15px;
+    width: 70%;
     box-sizing: border-box;
 }
 .logo{
+    height: 10%;
     margin-bottom: 10px;
 }
-.section1 textarea{
-    width: 680px;
+.dato{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     height: 400px;
+}
+.section1 textarea{
+    height: 400px;
+    width: 90%;
     resize: none;
     border-radius: 10px;
     border: 1px solid rgb(93, 96, 99);
@@ -52,11 +49,14 @@ body{
 
 }
 .aviso{
+    margin: 5px 0;
     font-size: small;
     padding-left: 20px;
     font-style: italic;
+    font-weight: bold;
 }
 .botones{
+    height: 30%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -65,20 +65,31 @@ body{
 .btn1{
     width: 150px;
     height: 30px;
-    margin-top: 20px;
     border-radius: 5px;
+    padding: 8px;
+    font-weight: bolder;
+}
+.btn1:hover{
+    background-color: lightblue;
+    border: 1px solid white;
 }
 
 
 /*la section 2*/
 .section2{
-   width: 40%;
-   margin: 15px;
-   background-color: lightcyan;
+    display: grid;/*aca va el de none para cambiar flex*/
+
+    align-items: center;
+    width: 30%;
+    height: 100%;
+   background-color: lightgrey;
    border-radius: 10px;
 }
+/*aca va el pantalla 1*/
 .contenedor2{
-    display: block;
+    display: none;/*aca va el de none para cambiar grid*/
+    justify-content: center;
+    align-items: center;
 }
 .divSection1{
    display: flex;
@@ -86,7 +97,8 @@ body{
    justify-content: center;
    box-sizing: border-box;
    margin: 10px 5px;
-   height: 350px;
+   width: auto;
+   height: auto;
 }
 
 .divSection3{
@@ -100,24 +112,70 @@ body{
 .divSection3 p{
     padding-top: 5px;
 }
-.divSection2{
-    display: flex;
-}
+
 /* aca ba el tex area*/
+.divSection02{
+   display: grid;/*este es grid*/
+   align-items: center;
+   width: auto;
+    height: 95%;
+    padding: 10px 0;
+}
 .divSection2{
+    width: auto;
+     height: 95%;
     box-sizing: border-box;
-    display: none;
+    display: flex;
    align-items: center;
    justify-content: space-evenly;
    box-sizing: border-box;
    margin: 10px 5px;
 }
+
+.btn-div2{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
 .textarea2{
+    width: 98%;
+    height: 100%;
     resize: none;
-    padding: 15px 10px;
-    width: 400px;
-    height: 480px;
     border: 1px solid lightslategray;
     border-radius: 10px;
     font-size: 25px;
+    padding: 5px;
+
+}
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 5px;
+}
+.footerh{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+@media (max-width: 768px) {
+    .contenedor{
+        height: 1095px;
+    }
+    .principal{
+        display: flex;  
+        flex-direction: column;     
+        height: 85%;
+    }
+    .section1{
+        width: 100%;
+        box-sizing: content-box;
+    }
+    .section2{
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
 }
