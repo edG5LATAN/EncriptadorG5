@@ -29,7 +29,15 @@ body{
     width: 70%;
     box-sizing: border-box;
 }
+h1{
+    font-family: 'Lato', sans-serif;   
+color: rgba(10, 56, 113, 1);
+font-size: 30px;
+}
 .logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     height: 10%;
     margin-bottom: 10px;
 }
@@ -215,5 +223,6 @@ footer{
     justify-content: center;
     align-items: center;
     width: 100%;
-    font-family: 'Lato', sans-serif;   }
+    font-family: 'Lato', sans-serif;   
+   }
 }
