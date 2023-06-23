@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
+body{
+}
 /*la section 1*/
 .contenedor{
     margin:5px ;
@@ -19,8 +22,8 @@
     display: flex;
     border: 1px solid black;
     border-radius: 8px;
-    background-color: rgb(59, 150, 150);
-    box-shadow: 5px 10px 5px black
+    box-shadow: 5px 10px 5px black;
+    background-color: rgb(134, 170, 158);
 }
 .section1{
     width: 70%;
@@ -70,24 +73,22 @@
     font-weight: bolder;
 }
 .btn1:hover{
-    background-color: lightblue;
+    background-color: rgb(162, 216, 235);
     border: 1px solid white;
 }
 
 
 /*la section 2*/
 .section2{
-    display: grid;/*aca va el de none para cambiar flex*/
-
     align-items: center;
     width: 30%;
     height: 100%;
    background-color: lightgrey;
-   border-radius: 10px;
+   border-radius: 10px;  
+   border: 1px solid black;  
 }
 /*aca va el pantalla 1*/
 .contenedor2{
-    display: none;/*aca va el de none para cambiar grid*/
     justify-content: center;
     align-items: center;
 }
@@ -99,6 +100,7 @@
    margin: 10px 5px;
    width: auto;
    height: auto;
+   overflow: hidden;
 }
 
 .divSection3{
@@ -114,16 +116,18 @@
 }
 
 /* aca ba el tex area*/
-.divSection02{
-   display: grid;/*este es grid*/
+.divSection02{    
+    display: none;/*este es grid*/
    align-items: center;
+   position: relative;
    width: auto;
-    height: 95%;
-    padding: 10px 0;
+    height: 98%;
+    padding: 10px 0;   
+
 }
 .divSection2{
     width: auto;
-     height: 95%;
+     height: 90%;
     box-sizing: border-box;
     display: flex;
    align-items: center;
@@ -145,7 +149,6 @@ justify-content: space-evenly;
     border-radius: 10px;
     font-size: 25px;
     padding: 5px;
-
 }
 footer{
     background-color: black;
@@ -160,6 +163,17 @@ footer{
     align-items: center;
     justify-content: space-evenly;
 }
+.ocultar{
+    display: none;
+}
+.mostrar{
+    display: unset;
+}
+
+
+
+
+
 @media (max-width: 768px) {
     .contenedor{
         height: 1095px;
@@ -178,4 +192,28 @@ footer{
         height: auto;
         margin: 10px 0;
     }
+    .img2{
+        width: 300px;
+        height: 230px;
+    }
+    .divSection2{
+        height: 80%;
+    }
+    .footerh{
+        font-family: 'Lato', sans-serif;
+    }
+}
+@media (max-width: 450px){
+   footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   }
+   .footerh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Lato', sans-serif;   }
 }
