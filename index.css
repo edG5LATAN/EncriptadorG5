@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 body{
+    background-color: white;
 }
 /*la section 1*/
 .contenedor{
@@ -23,10 +24,10 @@ body{
     border: 1px solid black;
     border-radius: 8px;
     box-shadow: 5px 10px 5px black;
-    background-color: rgb(134, 170, 158);
+    background-color: rgb(179, 228, 250);
 }
 .section1{
-    width: 70%;
+    width: 60%;
     box-sizing: border-box;
 }
 h1{
@@ -75,14 +76,17 @@ font-size: 30px;
 }
 .btn1{
     width: 150px;
-    height: 30px;
+    height: auto;
     border-radius: 5px;
     padding: 8px;
     font-weight: bolder;
+    background-color: blue;
+    color: white;
 }
 .btn1:hover{
     background-color: rgb(162, 216, 235);
     border: 1px solid white;
+    color: black;
 }
 
 
@@ -135,7 +139,7 @@ font-size: 30px;
 }
 .divSection2{
     width: auto;
-     height: 90%;
+     height: 88%;
     box-sizing: border-box;
     display: flex;
    align-items: center;
