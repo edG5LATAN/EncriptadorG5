@@ -1,4 +1,4 @@
-![alura-latan](https://github.com/edG5LATAN/EncriptadorG5/assets/136633393/96afbeb0-fd77-429e-b48b-b46b4ccd1fbb](https://i.pinimg.com/736x/5d/13/ae/5d13ae290c9c52563a38557b7ae6079b.jpg))
+![alura-latan](https://i.pinimg.com/736x/5d/13/ae/5d13ae290c9c52563a38557b7ae6079b.jpg)
 
 # EncriptadorG5
 # <Your-Project-Title>
