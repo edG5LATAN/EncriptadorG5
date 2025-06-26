@@ -1,66 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
     <title>Encriptador</title>
-</head>
+  </head>
 
-<body>
-    <div class="contenedor">
+  <body>
+    <div class="body_contenedor">
+      <div class="contenedor">
         <div class="principal">
-            <section class="section1">
-                <div class="logo">
-                    <img src="./imagenes/Logo.png" alt="">
-                    <h1>Encriptador</h1>
-                </div>
-                <div class="dato">
-                    <textarea class="textarea" name="datos" id="" cols="30" rows="10">
+          <section class="section1">
+            <div class="logo">
+              <a href="">
+                <img src="./imagenes/Logo.png" alt="" />
+              </a>
+              <h1>Encriptador</h1>
+            </div>
+            <div class="dato">
+              <textarea class="textarea" name="datos" id="" cols="30" rows="10">
+              </textarea>
+            </div>
+            <div id="botones">
+              <p class="aviso">
+                solo se permite letras minusculas y sin acento
+              </p>
+              <div class="botones">
+                <button class="btn1">Encriptar</button>
+                <button class="btn1">Desencriptar</button>
+              </div>
+            </div>
+          </section>
+          <section class="section2">
+            <div class="contenedor2">
+              <div class="divSection1">
+                <img
+                  class="img2"
+                  src="./imagenes/personaGif.gif"
+                  alt="imagen de segunda division"
+                />
+              </div>
 
-                </textarea>
-                </div>
-                <div id="botones">
-                    <p class="aviso">solo se permite letras minusculas y sin acento</p>
-                    <div class="botones">
-                        <button class="btn1">Encriptar</button>
-                        <button class="btn1">Desencriptar</button>
-                    </div>
-                </div>
-            </section>
-            <section class="section2">
-                <div class="contenedor2">
-                    <div class="divSection1">
-                        <img class="img2" src="./imagenes/Muñeco.png" alt="imagen de segunda division">
-                    </div>
-
-                    <div class="divSection3">
-                        <h3>ENCRIPTADOR Y DESENCRIPTADOR</h3>
-                        <p>Programa de encriptacion y desencriptador de 
-                        mensajes enviados por pantalla con el que puedes proteger 
-                        tus msj y compartirlo con tus amigos.</p>
-                    </div>
-                </div>
-                <div class="divSection02">
-                    <div class="divSection2">
-                        <textarea class="textarea2" readonly name="textarea2" id="" cols="30" rows="10"></textarea>
-                    </div>
-                    <div class="btn-div2"> 
-                        <button class="btn1">copiar</button>
-                    </div>
-                   
-                </div>
-            </section>
-
+              <div class="divSection3">
+                <h3>ENCRIPTADOR Y DESENCRIPTADOR</h3>
+                <p>
+                  Programa de encriptacion y desencriptador de mensajes enviados
+                  por pantalla con el que puedes proteger tus msj y compartirlo
+                  con tus amigos.
+                </p>
+              </div>
+            </div>
+            <div class="divSection02">
+              <div class="divSection2">
+                <textarea
+                  class="textarea2"
+                  readonly
+                  name="textarea2"
+                  id=""
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
+              <div class="btn-div2">
+                <button class="btn1">copiar</button>
+              </div>
+            </div>
+          </section>
         </div>
-        
+      </div>
+      <footer>
+        <h3 class="footerh">ALURA Latam</h3>
+        <h3 class="footerh">creado por E.C</h3>
+      </footer>
     </div>
-<footer>
-            <h3 class="footerh">ALURA Latam</h3>
-            <h3 class="footerh">creado por E.C</h3>
-        </footer>
-</body>
-<script src="./index.js"></script>
-
+  </body>
+  <script src="./index.js"></script>
 </html>
